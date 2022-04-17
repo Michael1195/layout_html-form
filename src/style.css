@@ -1,1 +1,15 @@
-/* styles go here */
+fieldset {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+fieldset > label:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.label-radio {
+  display: inline-block;
+}
